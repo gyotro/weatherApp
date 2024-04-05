@@ -37,7 +37,7 @@ fun WeatherDataDisplay(
         Spacer(modifier = Modifier.height(4.dp))
         Text(
             text = "${value}${unit}",
-            fontSize = 50.sp,
+            fontSize = 15.sp,
             style = textStyle
         )
     }
